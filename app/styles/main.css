@@ -1,0 +1,22 @@
+* {
+	-webkit-box-sizing:inherit;
+	-moz-box-sizing:inherit;
+	box-sizing:inherit
+}
+:before,:after {
+	-webkit-box-sizing:inherit;
+	-moz-box-sizing:inherit;
+	box-sizing:inherit
+}
+
+.mz-order-panel-wrapper {
+	z-index: 999999999;
+	position: fixed;
+	right: 70px;
+	bottom: 0px;
+  	min-width: 300px;
+}
+
+.margin-top-10 {
+	margin-top: 10px !important;
+}

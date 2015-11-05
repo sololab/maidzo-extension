@@ -1,0 +1,1 @@
+# maidzo-extension
