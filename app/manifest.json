@@ -29,18 +29,11 @@
         "scripts/main.js"
       ],
       "matches": [
-        "http://item.taobao.com/*",
-        "https://item.taobao.com/*",
-        "http://world.taobao.com/item/*",
-        "https://world.taobao.com/item/*",
-        "http://*.tmall.com/*",
-        "https://*.tmall.com/*",
-        "http://world.tmall.com/*",
-        "https://world.tmall.com/*",
-        "http://*.yao.95095.com/*",
-        "https://*.yao.95095.com/*",
-        "http://*.1688.com/*",
-        "https://*.1688.com/*"
+        "*://item.taobao.com/*",
+        "*://world.taobao.com/item/*",
+        "*://detail.tmall.com/*",
+        "*://*.yao.95095.com/*",
+        "*://*.1688.com/*"
       ]
     }
   ],
@@ -71,7 +64,7 @@
       "19": "images/icon-19.png",
       "38": "images/icon-38.png"
     },
-    "default_title": "Maidzo",
+    "default_title": "Công cụ đặt hàng Mạidzô",
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
