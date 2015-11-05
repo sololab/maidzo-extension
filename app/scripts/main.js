@@ -19,7 +19,31 @@
 		document.getElementById('openOrder').onclick = function() {
 			openOrder();
 		}
+
+		document.getElementById('hidePanel').onclick = function() {
+			document.getElementById('orderPanel').style.display = 'none';
+
+			hidePanel();
+		}
+
+		document.getElementById('orderButton').onclick = function() {
+			this.style.display = 'none';
+
+			showPanel();
+		}
 	});
+
+	function hidePanel () {
+		var panelWrapper = document.getElementById('orderButton');
+
+		panelWrapper.style.display = 'block';
+	}
+
+	function showPanel () {
+		var panelWrapper = document.getElementById('orderPanel');
+
+		panelWrapper.style.display = 'block'
+	}
 
 	function openOrder () {
 		var store = url('hostname');

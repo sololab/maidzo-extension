@@ -17,6 +17,13 @@
   	min-width: 300px;
 }
 
+.mz-order-button-wrapper {
+	z-index: 999999999;
+	position: fixed;
+	right: 70px;
+	bottom: 0px;
+}
+
 .margin-top-10 {
 	margin-top: 10px !important;
 }
